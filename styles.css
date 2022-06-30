@@ -29,12 +29,12 @@ body{
 
 #navbar ul li{
     width: 4rem;
-    padding: 1.2rem;
+    padding: 1.2rem 1.5rem;
     text-align: center;
 }
 
 #navbar ul li:hover{
-    background-color: hsl(178, 83%, 14%);
+    background-color: hsl(178, 84%, 20%);
 }
 
 
