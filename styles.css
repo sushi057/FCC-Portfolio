@@ -23,6 +23,8 @@ body{
     align-items: center;
     justify-content: flex-end;
     font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
 }
 
 #navbar ul{
@@ -33,7 +35,7 @@ body{
 
 #navbar ul li a{
     width: 4rem;
-    padding: 1.2rem 1.3rem;
+    padding: 1rem 1.3rem;
     text-align: center;
     color: white;
     
@@ -56,6 +58,7 @@ body{
     align-items: center;
     font-size: 2rem;
 }
+
 #welcome-section p{
     color: var(--nav-color);
     font-size: 1.4rem;
