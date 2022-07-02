@@ -1,3 +1,7 @@
+:root{
+    --nav-color: hsl(0, 66%, 41%);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -12,13 +16,13 @@ body{
 }
 
 #navbar{
-    background-color: hsl(0, 65%, 40%);
+    background-color: var(--nav-color);
     border-bottom: 2px solid black;
-    height: 4rem;
+    height: 3.3rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #navbar ul{
@@ -29,7 +33,7 @@ body{
 
 #navbar ul li a{
     width: 4rem;
-    padding: 1.2rem 1.5rem;
+    padding: 1.2rem 1.3rem;
     text-align: center;
     color: white;
     
@@ -41,17 +45,26 @@ body{
 
 #welcome-section{
     background: linear-gradient(
-        0deg,
-        rgb(66, 68, 72) 2% , rgba(12, 1, 36, 0.986)
-    );
+        62deg, 
+        rgb(48, 53, 55) 0%, 
+        rgb(19, 21, 21) 100%);
     color: white;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
 }
+#welcome-section p{
+    color: var(--nav-color);
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+
 
 a {
     text-decoration: none;
