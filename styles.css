@@ -12,7 +12,7 @@ body{
 }
 
 #navbar{
-    background-color: hsl(0, 75%, 55%);
+    background-color: hsl(0, 65%, 40%);
     border-bottom: 2px solid black;
     height: 4rem;
     display: flex;
@@ -27,17 +27,31 @@ body{
     justify-content: space-between;
 }
 
-#navbar ul li{
+#navbar ul li a{
     width: 4rem;
     padding: 1.2rem 1.5rem;
     text-align: center;
+    color: white;
+    
 }
 
-#navbar ul li:hover{
-    background-color: hsl(178, 84%, 20%);
+#navbar ul li a:hover{
+    background-color: hsl(178, 50%, 12%);
 }
 
-
+#welcome-section{
+    background: linear-gradient(
+        0deg,
+        rgb(66, 68, 72) 2% , rgba(12, 1, 36, 0.986)
+    );
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
 
 a {
     text-decoration: none;
