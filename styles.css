@@ -67,9 +67,21 @@ body{
     margin-top: 6px;
 }
 
-#projects{
+#projects p{
+    text-align: center;
+}
+
+#project-list{
     background-color: #3a4869;
     display: grid;
+}
+
+#projects button{
+    text-align: center;
+}
+
+#contact{
+    background-color: ;
 }
 
 a {
