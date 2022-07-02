@@ -67,7 +67,10 @@ body{
     margin-top: 6px;
 }
 
-
+#projects{
+    background-color: #3a4869;
+    display: grid;
+}
 
 a {
     text-decoration: none;
