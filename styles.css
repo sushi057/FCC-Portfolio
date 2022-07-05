@@ -120,7 +120,7 @@ button{
     padding: 10px 40px;
     display: inline-block;
     margin-top: 10px;
-    background-color: #1256f5;
+    background-color: #4771d5;
 }
 
 #contact{
@@ -135,11 +135,16 @@ button{
     flex-direction: column;
 }
 
+#contact h1{
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+
 #contact p{
-    
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 1.3rem;
+    font-weight:lighter;
     font-style: italic;
+    margin-bottom: 60px;
 }
 
 #contact ul{
@@ -148,7 +153,7 @@ button{
 
 #contact ul li{
     display: inline-block;
-    margin: auto 18px;
+    margin: auto 22px;
     font-size: 1.3rem;
 }
 
@@ -159,4 +164,11 @@ button{
 a {
     text-decoration: none;
     color: hsl(0, 57%, 5%);
+}
+
+#footer{
+    background-color: #282f37;
+    border-top: 2px solid red;
+    padding: 10px;
+    color: white;
 }
