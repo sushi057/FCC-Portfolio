@@ -108,11 +108,6 @@ body{
 
 }
 
-.project-tile:hover{
-    #tag{
-        color: yellow;
-    }
-}
 
 button{
     font-size: 1.2rem;
