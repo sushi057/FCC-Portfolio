@@ -69,15 +69,47 @@ body{
 
 #projects{
     background-color: #3a4869;
+    width: auto;
+    height: 94vh;
 }
 
-#projects p{
+#projects > p{
     text-align: center;
+    font-size: 2.4rem;
+    color: hsla(69, 91%, 46%, 0.883);
+    padding: 20px;
 }
 
 #project-list{
     display: grid;
+    gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-tile{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#project-list p{
+    text-align: center;
+    padding: 20px;
+    background-color:hsl(178, 50%, 12%);
+    color: white;
+    size: 2000px;
+}
+
+#image{
+    height: 260px;
+    width: 274px;
+    overflow: hidden;
+
+}
+
+.project-tile:hover{
+    #tag{
+        color: yellow;
+    }
 }
 
 #projects button{
