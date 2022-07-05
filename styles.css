@@ -71,6 +71,7 @@ body{
     background-color: #3a4869;
     width: auto;
     height: 94vh;
+    text-align: center;
 }
 
 #projects > p{
@@ -82,7 +83,7 @@ body{
 
 #project-list{
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -112,8 +113,14 @@ body{
     }
 }
 
-#projects button{
-    text-align: center;
+button{
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #0d53f5;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #1256f5;
 }
 
 #contact{
@@ -128,15 +135,8 @@ body{
     flex-direction: column;
 }
 
-#contact h1{
-    position: relative;
-    top: -80px;
-    font-size: 4rem;
-}
-
 #contact p{
-    position: relative;
-    top: -70px;
+    
     font-size: 1rem;
     font-weight: 100;
     font-style: italic;
